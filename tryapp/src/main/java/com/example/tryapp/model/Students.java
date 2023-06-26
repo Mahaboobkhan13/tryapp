@@ -16,8 +16,8 @@ public class Students
     @Id
     @NotBlank
     private String name;
-    private String sec;
-    private int phone_number;
+    private String password;
+    private long phone_number;
     private String DOB;
 
 }
